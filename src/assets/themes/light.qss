@@ -1,0 +1,41 @@
+* {
+    color: black;
+}
+
+QMainWindow,
+#centralwidget {
+    border-radius: 8px;
+    border: 1px solid wheat;
+    background-color: whitesmoke;
+}
+
+#title_bar {
+    border: 1px solid #98aab2;
+    border-radius: 6px;
+    background-color: qlineargradient(spread:pad, x1:0.117647, y1:0.329, x2:0.838, y2:0.772727, stop:0.142157 rgba(83, 17, 121, 255), stop:1 rgba(197, 87, 103, 255));
+}
+
+#file_details_widget {
+    border: 1px solid #98aab2;
+    border-radius: 8px;
+    background-color: qlineargradient(spread:pad, x1:0.117647, y1:0.329, x2:0.838, y2:0.772727, stop:0.142157 rgba(78, 37, 218, 255), stop:1 rgba(161, 87, 197, 255));
+}
+
+#file_list {
+    border: 1px solid #98aab2;
+    border-radius: 8px;
+    background-color: qlineargradient(spread:pad, x1:0.117647, y1:0.329, x2:0.838, y2:0.772727, stop:0.142157 rgba(161, 87, 197, 255), stop:1 rgba(78, 37, 218, 255));
+}
+
+#close_btn,
+#max_btn,
+#min_btn {
+    border: transparent;
+    background: transparent;
+}
+
+#theme_btn {
+    border: transparent;
+    background: transparent;
+    margin-right: 15px;
+}

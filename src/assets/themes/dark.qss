@@ -1,0 +1,106 @@
+* {
+    color: white;
+    font-family: "Comic Sans MS";
+}
+
+QMainWindow,
+#centralwidget,
+#stackedWidget {
+    border-radius: 8px;
+    border: 1px solid #1c1c1b;
+    background-color: #272727;
+}
+
+#app_bar {
+    border: 1px solid #1c1c1b;
+    border-radius: 6px;
+    background-color: qlineargradient(spread:pad, x1:0.117647, y1:0.329, x2:0.838, y2:0.772727, stop:0.142157 rgba(169, 70, 97, 1), stop:1 rgba(228, 97, 55, 1));
+}
+
+#app_title {
+    font-size: 14px;
+}
+
+
+#close_btn,
+#max_btn,
+#min_btn,
+#item_remove_btn,
+#go_btn {
+    border: transparent;
+    background: transparent;
+}
+
+#theme_btn {
+    border: transparent;
+    background: transparent;
+    margin-right: 15px;
+}
+
+#item_widget {
+    border-radius: 6px;
+    background: transparent;
+    border: transparent;
+    padding: 5px;
+}
+
+#list_symptoms {
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: qlineargradient(spread:pad, x1:0.117647, y1:0.329, x2:0.838, y2:0.772727, stop:0.142157 rgba(83, 17, 121, 255), stop:1 rgba(197, 87, 103, 255));
+}
+
+#list_symptoms:item {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 6px;
+    background: transparent;
+    background-color: qlineargradient(spread:pad, x1:0.117647, y1:0.329, x2:0.838, y2:0.772727, stop:0.142157 rgba(161, 87, 197, 255), stop:1 rgba(78, 37, 218, 255));
+}
+
+
+#list_symptoms:item:selected {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 6px;
+    background-color: qlineargradient(spread:pad, x1:0.117647, y1:0.329, x2:0.838, y2:0.772727, stop:0.142157 rgba(100, 87, 197, 255), stop:1 rgba(100, 37, 218, 255));
+}
+
+
+
+#list_symptoms_all {
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: qlineargradient(spread:pad, x1:0.117647, y1:0.329, x2:0.838, y2:0.772727, stop:0.142157 rgba(197, 87, 103, 255), stop:1 rgba(83, 17, 121, 255));
+}
+
+#list_symptoms_all:item {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 6px;
+    background: transparent;
+    background-color: qlineargradient(spread:pad, x1:0.117647, y1:0.329, x2:0.838, y2:0.772727, stop:0.142157 rgba(78, 37, 218, 255), stop:1 rgba(161, 87, 197, 255));
+}
+
+
+#list_symptoms_all:item:selected {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 6px;
+    background-color: qlineargradient(spread:pad, x1:0.117647, y1:0.329, x2:0.838, y2:0.772727, stop:0.142157 rgba(100, 37, 218, 255), stop:1 rgba(100, 87, 197, 255));
+}
+
+
+#item_title {
+    font-size: 14px;
+}
+
+#result_title {
+    font-size: 16px;
+}
+
+#result_subtitle {
+    font-size: 14px;
+}
