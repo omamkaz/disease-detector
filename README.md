@@ -1,4 +1,4 @@
-# disease-detector
+# Disease Detector
 this program is an ML app to disease detection from exists symptoms.
 
 # Install
