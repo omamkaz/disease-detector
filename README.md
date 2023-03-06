@@ -13,3 +13,12 @@ pip install -r requirements.txt
 ```bash
 python3 app.py
 ```
+
+# Future
+- [] Add More Languages
+- [] Complete Light Theme
+- [] Fix Dark Theme
+- Deploy app to cross platforms
+  - [] Linux
+  - [] Windows
+  - [] MacOS
